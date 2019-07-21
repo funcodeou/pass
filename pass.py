@@ -1,9 +1,10 @@
 x=0
+answer = 'a123456'
 
 while True:
 	password = input('請輸入使用者密碼 :')
 	x = x + 1
-	if password == 'a123456':
+	if password == answer:
 		print('登入成功')
 		break
 	elif x == 1:
